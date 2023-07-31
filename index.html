@@ -515,47 +515,39 @@
           <p class="modal-title">Leave your contacts and we will call you back</p>
           <form class="modal-form">
             <div class="modal-form-container">
-              <label class="modal-label" for="user-name">
-                Name
-                <div class="modal-icon-wrapper">
+              <label class="modal-label" for="user-name">Name</label>
+                  <div class="modal-icon-wrapper">
                   <input class="modal-input" type="text" name="username" id="user-name"/>
                   <svg class="form-icon " width="18" height="24">
                     <use href="./images/icons.svg#icon-person"></use>
                   </svg>
-                  
+                  </div>
                 </div>
-              </label>
-            </div>
             <div class="modal-form-container">
-              <label class="modal-label">
-                Phone
+              <label class="modal-label" for="contact-tel">Phone</label>
                 <svg class="form-icon" width="18" height="24">
                   <use href="./images/icons.svg#icon-phone"></use>
                 </svg>
-                <input class="modal-input" type="tel" name="contact_tel" />
-              </label>
-            </div>
+                <input class="modal-input" type="tel" name="contact_tel" id="contact-tel"/>
+                         </div>
             <div class="modal-form-container">
-              <label class="modal-label">
-                Email
+              <label class="modal-label" for="comtact-email">Email</label>
                 <svg class="form-icon" width="18" height="24">
                   <use href="./images/icons.svg#icon-email"></use>
                 </svg>
-                <input class="modal-input" type="email" name="contact_email" />
-              </label>
+                <input class="modal-input" type="email" name="contact_email" id="comtact-email"/>
+              
             </div>
             <div class="modal-form-container">
-              <label class="modal-label">
-                Comment
+              <label class="modal-label" for="comment">Comment</label>
                 <input
                   class="form-input-comment"
+                  id="comment"
                   type="textarea"
                   name="comment"
                   rows="5"
-                  placeholder="Text input"
-                />
-              </label>
-            </div>
+                  placeholder="Text input"/>
+                </div>
             <label class="modal-label">
               <svg class="icon-checkmark" width="16" height="16">
                 <use href="./images/icons.svg#icon-checkmark"></use>
